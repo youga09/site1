@@ -1,3 +1,32 @@
 .margin-bottom {
     margin-bottom: 15px;
 }
+
+#button_last {
+    margin-top: 20px;
+}
+
+#message_last {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px; /* Colțuri rotunjite */
+    margin-top: 10px;
+    transition: border-color 0.3s;
+    resize: none; /* Previne redimensionarea */
+    height: 120px; /* Înălțimea casetei de mesaj */
+    font-size: 14px; /* Dimensiunea textului */
+    background-color: rgba(81, 182, 246, 0.2); /* Fundal albastru transparent */
+}
+
+#message_last::placeholder {
+    color: black; /* Culoarea albă pentru placeholder */
+    opacity: 0.7; /* Opacitate redusă pentru un efect mai subtil */
+}
+
+#message_last:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
