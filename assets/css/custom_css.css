@@ -40,3 +40,16 @@
     width: 100%;
     height: auto;
 }
+
+.video_section {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.video_section iframe {
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+}
+
